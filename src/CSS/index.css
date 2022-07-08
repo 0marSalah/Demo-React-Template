@@ -32,3 +32,26 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+/* blogs preview -- list */
+.blog-preview {
+  padding: 15px 20px;
+  margin: 40px auto;
+  border-bottom: 1px #fafafa solid;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+.blog-preview a {
+  text-decoration: none;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  color: #f1356d;
+}
+.blogs-container>h2 {
+  color: #c21540;
+}
