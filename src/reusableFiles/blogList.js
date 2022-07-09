@@ -11,12 +11,13 @@ const Blogs = ({ blogs, title }) => {
         borderRadius: "10px"
       }}>{ title }</h2>
       {blogs.map(blog => (
-        <div className="blog-preview" key= { blog.id }>
           <Link to={`/blogs/${blog.id}`}>
+          <div className="blog-preview" key= { blog.id }>
             <h2>{blog.title}</h2>
             <h4 style={{marginTop: "5px"}}>written by { blog.author}</h4>
+            </div>
           </Link>
-        </div>
+        
       ))}
     </div>
   );
